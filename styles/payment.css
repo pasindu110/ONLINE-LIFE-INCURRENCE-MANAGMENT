@@ -1,0 +1,10 @@
+.paydetails{
+    border:0;
+}
+
+
+.paydetails:hover{
+    border: 5px solid white;
+    border-radius: 50px;
+    opacity: 0.8;
+}

@@ -1,0 +1,40 @@
+.fbk{
+    display: block;
+    border:0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width:fit-content;
+    padding: 40px;
+    opacity: 0.8;
+    color: white;
+    font-family:'Noto Sans', sans-serif;
+    height:fit-content;
+    margin: auto;
+    background-color: rgb(69, 72, 75);
+
+}
+
+
+
+.txtara{
+    border: none;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+.txtara:focus{
+    outline: none;
+    opacity: 1;
+}
+.fsub{
+    width:100%;
+    color:rgb(255, 255, 255);
+    background-color: rgb(48, 132, 59);
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+  }
+  
+  .fsub:hover{
+    background-color: rgb(68, 212, 119);
+  }

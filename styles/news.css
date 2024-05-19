@@ -1,0 +1,71 @@
+.awardbut{
+    width:600px;
+    height: 500px;
+    background-image: url('news.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+    border: 0;
+    position: relative;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    opacity: 1;
+    
+}
+
+
+.awardbut::after{
+    content: "Twenty Years of Exceptional Service and Dedication Earn Safety First Insurance Company the Slim Nelson Award";
+     font-size: 35px;
+     color: rgb(255, 255, 255);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.7;
+    padding: 5px 10px;
+    width: 500px;
+    border-radius: 5px;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.awardbut:hover::after {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .pckbut{
+    width:600px;
+    height: 500px;
+    background-image: url('pck.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+    border: 0;
+    position: relative;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    opacity: 1;
+    
+}
+
+
+.pckbut::after{
+    content: "“Secure Shield Plus” safeguards your future today and forever!";
+     font-size: 35px;
+     color: rgb(255, 255, 255);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.7;
+    padding: 5px 10px;
+    width: 500px;
+    border-radius: 5px;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.pckbut:hover::after {
+    opacity: 1;
+    visibility: visible;
+  }

@@ -1,0 +1,38 @@
+
+.PackagesBack{
+    display: inline-block;
+    width:320px;
+    height: 100%;
+    background-color: brown;
+    border-radius: 45px;
+    border: 0;
+    position: relative;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    opacity: 1;
+    color:white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-weight: bold;
+    padding: 30px;
+    
+}
+
+
+  .price{
+    background-color: blueviolet;
+    padding: 10px;
+  }
+
+  .enroll{
+    border: 0;
+    background-color: rgb(6, 168, 22);
+    padding: 8px;
+    color:white;
+    font-size: 25px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .enroll:hover{
+    background-color: rgb(84, 183, 94);
+  }
